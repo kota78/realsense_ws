@@ -1,0 +1,57 @@
+# catkin workspace logs
+log/
+logs/
+build_logs/
+
+# catkin tools buildspace
+.build/
+
+# catkin_make
+build/
+devel/
+install/
+
+# catkin packages
+**/build/
+**/devel/
+**/install/
+
+# ROS bag files
+*.bag
+*.active
+*.orig.bag
+
+# ROS logs
+*.log
+*.test
+
+# Qt Creator
+*.user
+*.creator
+*.creator.user
+
+# CLion
+.idea/
+cmake-build-debug/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+
+# JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Mac specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
